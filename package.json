@@ -2,7 +2,12 @@
 	"name": "express-ts-restful",
 	"version": "0.0.5",
 	"description": "",
-	"main": "index.js",
+	"main": "dist/server.js",
+	"engines": {
+		"node": ">=8.11.0",
+		"npm": ">=5.6.0",
+		"yarn": ">=1.5.0"
+	},
 	"scripts": {
 		"build": "tsc",
 		"dev": "ts-node ./lib/server.ts",
